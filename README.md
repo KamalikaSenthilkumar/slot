@@ -31,17 +31,17 @@ Execute the program using runserver command.
 slot.html
 
 ```
-
 <html>
 <head>
 	<title>Time Table</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="logo.png" style="width:50%;display: block;margin:auto;"  alt="">
+    <img class="img" src="logo.png">
     
-    <table class="tabletime" align="center" style="background-color: #f3e3d6; margin-bottom:25px; margin-top:40px;" border="1" cellspaping="2" cellpading="24">
-      <caption align="center" style="font-size:20px; margin-bottom: 5px;"><b>SLOT TIME TABLE - S Kamalika-26011027</b></caption>
+    <table class="tabletime" align="center" border="1" cellspacing="2" cellpading="24">
+      <caption align="center"><b>SLOT TIME TABLE - S Kamalika-26011027</b></caption>
+
     <tr  bgcolor="#baa3e8" align="center">
         <th >Day/Time</th>
         <th >8:00 - 9:30</th>
@@ -105,7 +105,7 @@ slot.html
     </tr>
     </table>
 
-    <table class="course" align="center" border="1" cellspaping="20" cellpading="24">
+    <table class="course" align="center" border="1" cellspacing="20" cellpading="24">
     <tr>
         <th >S.No</th>
         <th >Subject Code</th>
@@ -149,36 +149,13 @@ slot.html
     </table>
 </body>
 </html>
-
 ```
 style.css
 
 ```
-.tabletime tr th{
-    width: 125px;
-    height: 25px;
-}
-.tabletime tr td{
-    width: 125px;
-    height: 25px;
-}
-
-.course tr td:nth-child(1){
-width: 100px;
-height: 30px;
-}
-
-.course tr td:nth-child(2){
-width: 250px;
-height: 30px;
-}
-
-.course tr td:nth-child(3){
-width: 300px;
-height: 30px;
-}
-.course tr th{
-height: 30px;
+.img{
+    width:50%;
+    margin-left: 350px;
 }
 
 ```

@@ -1,3 +1,16 @@
+.img{
+    width:50%;
+    margin-left: 350px;
+}
+.timetable{
+    background-color: #f3e3d6; 
+    margin-bottom:25px; 
+    margin-top:40px;
+}
+.timetable caption{
+    font-size:20px; 
+    margin-bottom: 5px;
+}
 .tabletime tr th{
     width: 125px;
     height: 25px;
