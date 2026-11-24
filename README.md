@@ -157,6 +157,41 @@ style.css
     width:50%;
     margin-left: 350px;
 }
+.timetable{
+    background-color: #f3e3d6; 
+    margin-bottom:25px; 
+    margin-top:40px;
+}
+.timetable caption{
+    font-size:20px; 
+    margin-bottom: 5px;
+}
+.tabletime tr th{
+    width: 125px;
+    height: 25px;
+}
+.tabletime tr td{
+    width: 125px;
+    height: 25px;
+}
+
+.course tr td:nth-child(1){
+width: 100px;
+height: 30px;
+}
+
+.course tr td:nth-child(2){
+width: 250px;
+height: 30px;
+}
+
+.course tr td:nth-child(3){
+width: 300px;
+height: 30px;
+}
+.course tr th{
+height: 30px;
+}
 
 ```
 
