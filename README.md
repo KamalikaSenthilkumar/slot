@@ -31,15 +31,16 @@ Execute the program using runserver command.
 slot.html
 
 ```
+
 <html>
 <head>
 	<title>Time Table</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slot.css">
 </head>
 <body>
     <img class="img" src="logo.png">
     
-    <table class="tabletime" align="center" border="1" cellspacing="2" cellpading="24">
+    <table class="tabletime" align="center" border="1" cellspacing="2" cellpading="2">
       <caption align="center"><b>SLOT TIME TABLE - S Kamalika-26011027</b></caption>
 
     <tr  bgcolor="#baa3e8" align="center">
@@ -104,8 +105,9 @@ slot.html
         <td>FREE SLOT</td>
     </tr>
     </table>
-
-    <table class="course" align="center" border="1" cellspacing="20" cellpading="24">
+<br>
+<br>
+    <table class="course" align="center" border="1" cellspacing="2" cellpading="2">
     <tr>
         <th >S.No</th>
         <th >Subject Code</th>
@@ -150,7 +152,7 @@ slot.html
 </body>
 </html>
 ```
-style.css
+slot.css
 
 ```
 .img{
@@ -198,11 +200,11 @@ height: 30px;
 ## OUTPUT
 Webpage:
 
-![alt text](image.png)
+![alt text](image-2.png)
 
 Server Side:
 
-![alt text](image-1.png)
+![alt text](image-4.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
